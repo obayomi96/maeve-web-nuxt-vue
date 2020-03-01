@@ -1,0 +1,39 @@
+{
+  "name": "experience_web",
+  "version": "1.0.0",
+  "description": "affinity experience customer facing websites ",
+  "author": "Affinity Team",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.8.5",
+    "@nuxtjs/axios": "^5.9.3",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.2.2",
+    "express-session": "^1.17.0",
+    "jwt-decode": "^2.2.0",
+    "nuxt": "^2.0.0",
+    "vue": "^2.6.11",
+    "vue-jwt-decode": "^0.1.0",
+    "vue-router": "^3.1.5",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^1.0.1",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "feathers-localstorage": "^5.1.0",
+    "localstorage-memory": "^1.0.3"
+  }
+}
